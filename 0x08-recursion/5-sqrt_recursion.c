@@ -16,7 +16,11 @@ int _sqrt_recursion(int n)
  */
 int _root_finder(int n, int r)
 {
-	if (n < 0 || r * r > n)
+	if (n < 0)
+	{
+		return (-1);
+	}
+	if (r * r > n)
 	{
 		return (-1);
 	}
