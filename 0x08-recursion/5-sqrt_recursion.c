@@ -10,22 +10,19 @@ int _sqrt_recursion(int n)
 }
 /**
  * _root_finder-returns the root
- * @i:the root
+ * @r:the root
  * @n:an input integer
  * Return:an integer
  */
-int _root_finder(int n, int i)
+int _root_finder(int n, int r)
 {
-	if (n < 0 || n == 0)
+	if (n < 0 || r * r > n)
 	{
 		return (-1);
 	}
-	else if (i * i == n)
+	if (r * r == n)
 	{
-		return (i);
+		return (r);
 	}
-	else if (i * i < n)
-	{
-		return (_root_finder(n, i + 1));
-	}
+	return (_root_finder(n, r + 1));
 }
