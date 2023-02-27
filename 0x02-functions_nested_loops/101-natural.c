@@ -4,19 +4,18 @@
  *
  * Return: Always 0 (Success)
  */
-int main() {
-int ans=0,i=0;
-while(i<1024)
+int main(void) 
 {
-if(i%3==0 || i%5==0)
+int ans = 0, i = 0;
+while (i < 1024)
 {
-
-ans+=i;
-        
+if (i % 3 == 0 || i % 5 == 0)
+{
+ans += i;      
 }
 i++;
 }
-printf("%d\n",ans);
+printf("%d\n", ans);
 return (0);
 
 }
