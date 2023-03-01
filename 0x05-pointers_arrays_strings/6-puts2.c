@@ -12,11 +12,11 @@ while (str[i] != '\0')
 {
 i++;
 }
-_putchars(str[j]);
+_putchar(str[j]);
 while (j < i - 3)
 {
-_putchars(str[j + 2];
+_putchar(str[j + 2];
 j++;
 }
-_putchars('\n');
+_putchar('\n');
 }
