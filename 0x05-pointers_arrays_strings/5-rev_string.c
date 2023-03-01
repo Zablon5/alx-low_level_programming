@@ -15,7 +15,7 @@ i++;
 while (j < i)
 {
 var1 = s[j];
-var2 = s[i - 1]
+var2 = s[i - 1];
 s[j] = var2;
 s[i - 1] = var1;
 j++;
