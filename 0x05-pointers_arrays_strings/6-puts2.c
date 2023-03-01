@@ -15,7 +15,7 @@ i++;
 _putchar(str[j]);
 while (j < i - 3)
 {
-_putchar(str[j + 2];
+_putchar(str[j + 2]);
 j++;
 }
 _putchar('\n');
