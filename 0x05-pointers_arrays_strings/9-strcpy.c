@@ -18,6 +18,6 @@ while (j < len)
 dest[j] = src[j];
 j++;
 }
-dest[j + 1] = '\0';
+dest[len] = '\0';
 return (dest);
 }
