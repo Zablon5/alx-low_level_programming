@@ -12,9 +12,9 @@ while (str[i] != '\0')
 i++;
 }
 len = (i - 1) / 2;
-while (str[len-1] != '\0')
+while (str[len] != '\0')
 {
-_putchar(str[len-1]);
+_putchar(str[len]);
 len++;
 }
 _putchar('\n');
