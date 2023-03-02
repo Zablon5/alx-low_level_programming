@@ -15,7 +15,7 @@ len++;
 }
 while (j < len)
 {
-dest[j] = str[j];
+dest[j] = src[j];
 j++;
 }
 dest[j + 1] = '\0';
