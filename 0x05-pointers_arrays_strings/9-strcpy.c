@@ -5,7 +5,7 @@
 * @dest:reference to destination string
 * @src:reference to a string that is going to be copied
 * Return:dest
-*
+*/
 char *_strcpy(char *dest, char *src)
 {
 int len = 0, j = 0;
